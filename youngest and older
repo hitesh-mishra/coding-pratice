@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<< "enter the number:";
+    cout<<a<<b<<c<<endl;
+    if(a>b&&a>c){
+        cout<<"youngest"<<a<<endl;
+    }
+    if(b>a&&b>c){
+        cout<<"youngest"<<b<<endl;
+        
+    }
+    if(c>a&&c>b){
+        cout<<"youngest"<<c<<endl;
+    }
+    return 0;
+    
+}
